@@ -1,0 +1,61 @@
+.ArticlePreview {
+    border: 1px solid #eeeeee;
+    box-shadow: 0 2px 3px #cccccc;
+    padding: 10px 0 0;
+    margin: 30px;
+    box-sizing: border-box;
+    display: flex;
+    height: 400px;
+    width: 400px;
+}
+
+.ArticlePreview a {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ArticlePreview a p {
+    font-size: 26px;
+    font-family: 'Open Sans';
+    font-weight: bolder;
+    margin: 15px 10px;
+}
+
+.ArticlePreview a img {
+    height: 250px;
+    width: 400px;
+}
+
+.ArticlePreview:hover{
+    cursor: pointer;
+}
+
+@media(max-width: 599px){
+    .ArticlePreview {
+        margin: 20px;
+        padding: 15px;
+        background-color: #fff;    
+        width: 80%;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.1);
+    }  
+    .ArticlePreview a p {
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0;
+        padding: 10px 0;
+        line-height: 30px;
+    }
+    
+    .ArticlePreview a img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+}

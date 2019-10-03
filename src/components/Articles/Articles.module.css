@@ -1,0 +1,14 @@
+.Articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+@media(max-width: 1350px) {
+    .Articles {
+        flex-direction: column;
+        align-items: center;
+    }   
+}
