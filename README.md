@@ -1,3 +1,3 @@
-Página desplegada: https://github.com/sebadelomas/RadioMitre
+Página desplegada: https://sebadelomas.github.io/RadioMitre/
 
 Framework utilizado: ReactJs 16
