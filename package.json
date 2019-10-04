@@ -1,8 +1,8 @@
 {
-  "name": "radioMitre",
+  "name": "RadioMitre",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sebadelomas.github.io/radioMitre",
+  "homepage": "https://sebadelomas.github.io/RadioMitre",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
